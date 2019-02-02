@@ -1,0 +1,282 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+h1, h2,h3,h4
+{
+  color: #444;  
+}
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+}
+h2
+{
+    font-size: 55px;
+}
+h3
+{
+    font-size: 30px;
+}
+h4
+{
+    font-size: 24px;
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+#wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.orange
+{
+    color: #ff7a00;
+}
+.clear
+{
+    clear: both;   
+}
+small
+{
+    font-size: 13px;
+    font-style:italic;
+}
+/* MAIN IMAGE */
+
+#main-image
+{
+    height: 580px;
+    background: darkolivegreen;
+}
+#main-image h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+#main-image h3
+{
+    text-transform: uppercase;
+    text-align: center;
+     margin-bottom: 20px;
+  
+}
+.button-1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius:  3px;
+}
+.button-1:hover
+{
+     background: #fff;
+    text-decoration: none;
+}
+
+/* MENU */
+.navbar
+{
+    background: darkolivegreen;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar .navbar-nav
+{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+.navbar li a
+{
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+    color: #d82c2e !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle
+{
+    border-style: none;
+}
+.icon-bar
+{
+    background-color: #fff !important;
+}
+
+/* Ressources*/
+
+
+#Ressources
+{
+    background-color: #ccc;
+    padding:  60px 0;
+}
+#ressources .Atouts   h3
+{
+    color: black;
+}
+
+.Atouts
+{
+    font-style: italic;
+    width: 88%;
+    margin: 0 auto;
+    text-align: center;
+    padding:30px;
+    background: #fff;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+.Img 
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding:0;
+    background: darkolivegreen;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+/* FOOTER */
+footer
+{
+    background: darkolivegreen;
+    padding: 20px 0 40px;
+}
+footer .glyphicon
+{
+    font-size:  25px;
+    margin: 20px;
+    color: #d82c2e;
+    height: 30px;
+}
+footer .glyphicon:hover
+{
+    font-size:  27px;
+}
+footer h5
+{
+    color: #fff;
+    font-weight: normal;
+}
+
+/* HISTORIQUE*/
+#Historique
+{
+    padding:  60px 0; 
+}
+    
+
+#Historique .Hist
+{
+     background: url(Images/Histoire.jpg);
+}
+    
+/* CONTACT */
+
+#contact
+{
+    padding: 60px 0;
+    text-align: center
+}
+#contact h3
+{
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom:  1px solid darkolivegreen;
+    padding-bottom: 20px;   
+}
+form
+{
+    margin: 60px 0 20px 0;
+}
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+input[type="text"]
+{
+    padding:10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.button-3
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: darkolivegreen;
+    border-style: none;
+    border-radius: 3px;
+}
+.button-3:hover
+{
+    color: #fff;
+    background-color: #444;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
